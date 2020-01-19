@@ -1,0 +1,207 @@
+.placeholder{
+    margin: 5px;
+    padding: 0 10px;
+    text-align: center;
+    background-color: white;
+    height: 2.3em;
+    line-height: 2.3em;
+    color: rgba(0,0,0,.3);
+}
+
+.site-top
+{
+  position:absolute; 
+  z-index:2; 
+  top:0.5vh;
+  left: 0vw;
+}
+
+.site-swiper
+{
+  position:absolute; 
+  z-index:1; 
+  top:-0.5vh;
+  left: 0vw;
+}
+
+.size-swiper
+{
+  height: 90vh;
+  width: 100vw;
+}
+
+.size-swiper-image
+{
+  height: 90vh;
+  width: 100vw;
+}
+
+.site-News
+{
+  position:relative; 
+  z-index:1; 
+  top:33vh;
+  left: 0vw;
+
+}
+
+.size-News
+{
+  width: 100%;
+}
+
+.size-News-images
+{
+  height: 20%;
+}
+
+.size-News-image
+{
+  /* height:20vh; */
+  width: 40vw;
+}
+
+.site-News-image
+{
+  position:relative; 
+  z-index:1; 
+  top:0vh;
+  left: 0vw;
+}
+
+.site-end
+{
+  position:absolute; 
+  z-index:1; 
+  top:115vh;
+  left: 0vw;
+  bottom: 0;
+}
+
+.size-end
+{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.site-end-images
+{
+  position:relative; 
+  z-index:1; 
+  top:0vh;
+  left: 0vw;
+  bottom: 0%;
+}
+
+.size-end-images
+{
+  height: 44vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer
+{
+  position:relative; 
+  z-index:1; 
+  top:78vh;
+  left: 0vw;
+  bottom: 0;
+}
+
+.site-bottom
+{
+  position:relative; 
+  z-index:5; 
+  top:89vh;
+  left: 0vw;
+  bottom: 0; 
+}
+
+.site-bottom-image-icon-1
+{
+  position:relative; 
+  z-index:5; 
+  top:0vh;
+  left: 0vw;
+  bottom: 0;
+}
+
+.size-bottom-image-icon-1
+{
+  height: 7vh;
+  width: 7vh;
+  margin: 0;
+  padding: 0;
+}
+
+.site-bottom-image-icon-2
+{
+  position:relative; 
+  z-index:5; 
+  top:0vh;
+  left: 0vw;
+  bottom: 0;
+}
+
+.size-bottom-image-icon-2
+{
+  height: 7vh;
+  width: 7vh;
+  margin: 0;
+  padding: 0;
+}
+
+.site-bottom-image-icon-3
+{
+  position:relative; 
+  z-index:5; 
+  top:0vh;
+  left: 0vw;
+  bottom: 0;
+}
+
+.size-bottom-image-icon-3
+{
+  height: 7vh;
+  width: 7vh;
+  margin: 0;
+  padding: 0;
+}
+
+.site-bottom-image-icon-4
+{
+  position:relative; 
+  z-index:5; 
+  top:0vh;
+  left: 0vw;
+  bottom: 0;
+}
+
+.size-bottom-image-icon-4
+{
+  height: 7vh;
+  width: 7vh;
+  margin: 0;
+  padding: 0;
+}
+
+.site-bottom-image-icon-5
+{
+  position:relative; 
+  z-index:5; 
+  top:0vh;
+  left: 0vw;
+  bottom: 0;
+}
+
+.size-bottom-image-icon-5
+{
+  height: 7vh;
+  width: 7vh;
+  margin: 0;
+  padding: 0;
+}

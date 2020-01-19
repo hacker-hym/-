@@ -1,0 +1,43 @@
+<view class="container">
+  <!-- 一个swiper块  开始 -->
+  <swiper class="site-swiper size-swiper" previous-margin="0rpx" next-margin="0rpx" autoplay="true" interval="2000" duration="500" circular="true">
+    <swiper-item wx:for="{{swiperOfHomePage}}">
+      <view>
+        <text></text>
+        <image src="{{item.imagePath}}" class="size-swiper-image" mode="aspectFit" onclick=""></image>
+      </view>
+    </swiper-item>
+  </swiper>
+  <!-- 一个swiper块  结束 -->
+  <!-- 若干条新闻，含标题图片  开始 -->
+
+  <view class="weui-article__p site-mid-news">
+    简介：环保吸管通常材料有PE，PP，使用环保纸和聚乳酸材料，这当中是采用聚乳酸材料制作的吸管，被称为是一种新型的可生物降解吸管，其中聚乳酸材料特别符合环境需要，从而具有节能、减排和对保护环境的优点，不少商家也为了节省成本，从而出现没有环保材质的吸管，增加了环境污染的负担，并且不好的材质会对人体产生危害，因而人们在使用时都注重查看吸管材质，杜绝使用没有环保材料的吸管。     
+  </view>
+
+  <view class="weui-article__p site-end-news">
+    购买须知：本产品是与制造业企业进行合作推广的环保产品，用户也可以自己进行商品制作，拍摄照片并上传至本小程序，通过其他用户对其的点赞量，以及发布作品的数量质量，可获得相应的积分。
+  </view>
+
+  <view class="button-sp-area site-end-button page__bd page__bd_spacing view_class">
+    <view class="weui-btn-area">
+      <navigator url="/pages/dt/three/two/dynamicPage">
+        <button class="weui-btn" type="primary" bindtap="showTopTips" size="big">他人动态</button>
+      </navigator>
+    </view>
+    <view class="weui-btn-area">
+      <navigator url="/pages/pagesOfProject/apply/apply">
+        <button class="weui-btn" type="primary" bindtap="showTopTips" size="big">我要购买</button>
+      </navigator>
+    </view>
+  </view>
+
+  <view class="weui-footer site-footer">
+    <view class="weui-footer__links">
+      <navigator url="" class="weui-footer__link">联系我们</navigator>
+    </view>
+    <view class="weui-footer__text">Copyright © 2008-2020 shiqinghuanyi.hebut.edu</view>
+  </view>
+
+
+</view>

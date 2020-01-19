@@ -1,0 +1,45 @@
+<view class="container">
+  <!-- 一个swiper块  开始 -->
+  <swiper class="site-swiper size-swiper" previous-margin="0rpx" next-margin="0rpx" autoplay="true" interval="2000" duration="500" circular="true">
+    <swiper-item wx:for="{{swiperOfHomePage}}">
+      <view>
+        <text></text>
+        <image src="{{item.imagePath}}" class="size-swiper-image" mode="aspectFit" onclick=""></image>
+      </view>
+    </swiper-item>
+  </swiper>
+  <!-- 一个swiper块  结束 -->
+  <!-- 若干条新闻，含标题图片  开始 -->
+
+  <view class="weui-article__p site-mid-news">
+    简介：梅花鹿体型中等，结构匀称，明显地呈矮粗型。成年公鹿体重115-135kg左右，体长95-115cm左右;成年母鹿体重70-90kg左右，体长80-100cm左右。长白山梅花鹿夏毛桔红色，花斑大小适中，近腹部花班大而密，无背线。冬毛密厚灰褐色，花斑不明显。茸色为细毛红地。其繁殖周期为年产一胎，性成熟期约1岁,母鹿繁殖成活率 81.4%，繁殖利用年限10年。主要分布在吉林省通化县，已被引种到吉林、辽宁和黑龙江等地。
+    西伯利亚虎（学名：Panthera tigris ssp.altaica）：又称东北虎，是虎的亚种之一。是现存体重最大的肉食性猫科动物，其中雄性体长可达3米左右，尾长约1米，成年雄性平均为250千克，也有达到350千克左右。野生西伯利亚虎体色夏毛棕黄色，冬毛淡黄色。背部和体侧具有多条横列黑色窄条纹，通常2条靠近呈柳叶状。头大而圆，前额上的数条黑色横纹，中间常被串通，极似“王”字，故有“丛林之王”之美称。
+    金钱豹的体形与虎相似，金钱豹和虎毛色都是棕黄色，在棕黄色的毛中布满了黑色的斑纹，所不同的是虎的黑斑纹是条形的，而金钱豹的黑斑纹是圆形或椭圆形的，因为斑纹中间不是黑色的，而是棕黄色的，看上去像古时候的铜钱一样，因此得名金钱豹。金钱豹虽然比虎小，但身体强健有力，体长100〜150厘米，尾长约90厘米，一般体重约为50公斤左右。金钱豹的胸、腹、四脚内侧及尾的底面为白色，尾尖呈黑色。
+  </view>
+
+  <view class="weui-article__p site-end-news">
+    参赛须知：参赛者需要在参赛后一个月内在日常生活中完成“守护动物--长白山自然保护区”活动，进行照片的上传，通过其他用户对其的点赞量，以及发布作品的数量质量，可获得相应的积分。
+  </view>
+
+  <view class="button-sp-area site-end-button page__bd page__bd_spacing view_class">
+    <view class="weui-btn-area">
+      <navigator url="/pages/dt/two/two/dynamicPage">
+        <button class="weui-btn" type="primary" bindtap="showTopTips" size="big">他人动态</button>
+      </navigator>
+    </view>
+    <view class="weui-btn-area">
+      <navigator url="/pages/pagesOfProject/apply/apply">
+        <button class="weui-btn" type="primary" bindtap="showTopTips" size="big">我要报名</button>
+      </navigator>
+    </view>
+  </view>
+
+  <view class="weui-footer site-footer">
+    <view class="weui-footer__links">
+      <navigator url="" class="weui-footer__link">联系我们</navigator>
+    </view>
+    <view class="weui-footer__text">Copyright © 2008-2020 shiqinghuanyi.hebut.edu</view>
+  </view>
+
+
+</view>

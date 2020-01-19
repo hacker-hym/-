@@ -1,0 +1,110 @@
+.site-swiper {
+  position: absolute;
+  z-index: 1;
+  top: -5vh;
+  left: 0vw;
+}
+
+.size-swiper {
+  height: 50vh;
+  width: 100vw;
+}
+
+.size-swiper-image {
+  height: 50vh;
+  width: 100vw;
+}
+
+.site-News {
+  position: relative;
+  z-index: 1;
+  top: 33vh;
+  left: 0vw;
+}
+
+.size-News {
+  width: 100%;
+}
+
+.size-News-images {
+  height: 20%;
+}
+
+.size-News-image {
+  /* height:20vh; */
+  width: 40vw;
+}
+
+.site-News-image {
+  position: relative;
+  z-index: 1;
+  top: 0vh;
+  left: 0vw;
+}
+
+.site-end {
+  position: absolute;
+  z-index: 1;
+  top: 115vh;
+  left: 0vw;
+  bottom: 0;
+}
+
+.size-end {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.site-end-images {
+  position: relative;
+  z-index: 1;
+  top: 0vh;
+  left: 0vw;
+  bottom: 0%;
+}
+
+.size-end-images {
+  height: 44vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer {
+  position: relative;
+  z-index: 1;
+  top: 30vh;
+  left: 0vw;
+  bottom: 0;
+}
+
+.site-mid-news {
+  position: relative;
+  z-index: 1;
+  top: 30vh;
+  left: 0vw;
+  bottom: 0;
+}
+
+.site-end-news {
+  position: relative;
+  z-index: 1;
+  top: 29vh;
+  left: 0vw;
+  bottom: 0;
+}
+
+.site-end-button {
+  position: relative;
+  z-index: 1;
+  top: 28vh;
+  left: 0vw;
+  bottom: 0;
+}
+
+.view_class {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

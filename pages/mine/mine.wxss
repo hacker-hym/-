@@ -1,0 +1,97 @@
+/* .site-warning
+{
+  position:absolute; 
+  z-index:1; 
+  top:17vh;
+  left: 0vw;
+  bottom: 0; 
+} */
+
+.site-top {
+  position: relative;
+  z-index: 1;
+  top: -14.5vh;
+  left: 0vw;
+  bottom: 0;
+}
+
+.size-top {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.site-top-images {
+  position: relative;
+  z-index: 1;
+  top: 0vh;
+  left: 0vw;
+  bottom: 0%;
+}
+
+.size-top-images {
+  height: 67vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.site-mid {
+  position: relative;
+  z-index: 1;
+  top: -30vh;
+  left: 0vw;
+  bottom: 0;
+}
+
+.site-end {
+  position: relative;
+  z-index: 1;
+  top: -30vh;
+  left: 0vw;
+  bottom: 0;
+}
+
+.size-end {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.site-end-images {
+  position: relative;
+  z-index: 1;
+  top: 0vh;
+  left: 0vw;
+  bottom: 0%;
+}
+
+.size-end-images {
+  height: 56vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.site-end-text {
+  position: absolute;
+  z-index: 3;
+  top: 3vh;
+  left: 6vw;
+  bottom: 78%;
+}
+
+.size-end-text {
+  height: 10vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.site-end-footer {
+  position: relative;
+  z-index: 1;
+  top: -30vh;
+  left: 0vw;
+  bottom: 0;
+}

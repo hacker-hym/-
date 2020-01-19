@@ -1,0 +1,133 @@
+/**app.wxss**/
+@import 'style/weui.wxss';
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/* 换行 */
+.word
+{
+  word-wrap:break-word;
+  word-break:break-all;
+  text-overflow:ellipsis;
+}
+
+
+/* 各类排列方式 */
+
+/***********纵向排列********/
+.verticalAlign{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/***********横向排列**********/
+.horizontalArrangement
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.middle/*同一view中居中对齐*/
+{
+  display: flex;
+  align-items: center;
+}
+
+.title
+{
+  font-weight:bold;
+}
+
+ .annotation  /*  正文字体  */
+{
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+.linefeed /*文字换行*/
+{
+  word-break: break-all;
+}
+
+.center
+{
+  margin: auto;
+}
+
+.separator
+{
+  color: gainsboro;
+  font-size:smaller;
+  padding: 70vh 0 5vh 0;
+  margin: auto;
+}
+
+
+
+/* 侧滑布局缩放-begin */
+
+page,.page {
+  height: 100%;
+  font-family: 'PingFang SC', 'Helvetica Neue', Helvetica, 'Droid Sans Fallback', 'Microsoft Yahei', sans-serif;
+}
+.page-bottom{
+  height: 100%;
+  width: 750rpx;
+  position: fixed; 
+  background-color: rgb(140, 228, 128);
+  z-index: 0;
+}
+/* 
+.navigator-hover
+{
+  background: rgb(61, 245, 36);
+} */
+
+.wc{
+  color: white;
+  padding: 30rpx 0 30rpx 40rpx;
+  font-size: bigger;
+  font-weight:bold;
+}
+.page-content{
+  padding-top: 300rpx;
+}
+.page-top{
+  height: 100%;
+  position: fixed;
+  width: 750rpx;
+  background-color: white;
+  z-index: 0;
+  transition: All 0.4s ease; 
+  -webkit-transition: All 0.4s ease;
+}
+.page-top-image{
+  position: absolute;
+  width: 68rpx;
+  height: 38rpx;
+  left: 20rpx;
+  top: 20rpx;
+}
+.text{
+  margin: auto;
+  margin-top: 20rpx;
+  margin-left: 130rpx;
+  vertical-align: middle;
+  color: black;
+}
+.c-state2{
+  transform: rotate(0deg) scale(.8) translate(75%,0%); 
+  -webkit-transform: rotate(0deg) scale(.8) translate(75%,0%); 
+}
+
+/*  侧滑布局缩放-end */
+

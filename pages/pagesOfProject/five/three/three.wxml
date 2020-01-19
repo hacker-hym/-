@@ -1,0 +1,43 @@
+<view class="container">
+  <!-- 一个swiper块  开始 -->
+  <swiper class="site-swiper size-swiper" previous-margin="0rpx" next-margin="0rpx" autoplay="true" interval="2000" duration="500" circular="true">
+    <swiper-item wx:for="{{swiperOfHomePage}}">
+      <view>
+        <text></text>
+        <image src="{{item.imagePath}}" class="size-swiper-image" mode="aspectFit" onclick=""></image>
+      </view>
+    </swiper-item>
+  </swiper>
+  <!-- 一个swiper块  结束 -->
+  <!-- 若干条新闻，含标题图片  开始 -->
+
+  <view class="weui-article__p site-mid-news">
+    简介：社区成立了社区环境卫生工作委员会和社区志愿者保洁队伍,制定了社区绿化环境卫生社区绿化环境卫生工作制度，工作计划。各楼道的清洁制度，社区袋装垃圾房，公厕的管理制度，社区除四害工作制度，社区花草树木的护养，浇水，施肥管理制度等，有了这些管理制度，社区负责环境卫生的管理员，按照制度每天坚持检查一次环境卫生各方面的工作。
+  </view>
+
+  <view class="weui-article__p site-end-news">
+    报名须知：报名者者需要在报名后一个月内在动态中表达自己对社区环境的看法，协同政府有关部门开展相应的工作，进行照片的上传，通过其他用户对其的点赞量，以及发布作品的数量质量，可获得相应的积分。
+  </view>
+
+  <view class="button-sp-area site-end-button page__bd page__bd_spacing view_class">
+    <view class="weui-btn-area">
+      <navigator url="/pages/dt/five/three/dynamicPage">
+        <button class="weui-btn" type="primary" bindtap="showTopTips" size="big">他人动态</button>
+      </navigator>
+    </view>
+    <view class="weui-btn-area">
+      <navigator url="/pages/pagesOfProject/apply/apply">
+        <button class="weui-btn" type="primary" bindtap="showTopTips" size="big">我要报名</button>
+      </navigator>
+    </view>
+  </view>
+
+  <view class="weui-footer site-footer">
+    <view class="weui-footer__links">
+      <navigator url="" class="weui-footer__link">联系我们</navigator>
+    </view>
+    <view class="weui-footer__text">Copyright © 2008-2020 shiqinghuanyi.hebut.edu</view>
+  </view>
+
+
+</view>

@@ -1,0 +1,43 @@
+<view class="container">
+  <!-- 一个swiper块  开始 -->
+  <swiper class="site-swiper size-swiper" previous-margin="0rpx" next-margin="0rpx" autoplay="true" interval="2000" duration="500" circular="true">
+    <swiper-item wx:for="{{swiperOfHomePage}}">
+      <view>
+        <text></text>
+        <image src="{{item.imagePath}}" class="size-swiper-image" mode="aspectFit" onclick=""></image>
+      </view>
+    </swiper-item>
+  </swiper>
+  <!-- 一个swiper块  结束 -->
+  <!-- 若干条新闻，含标题图片  开始 -->
+
+  <view class="weui-article__p site-mid-news">
+    简介：“低碳环保骑行”迷你马拉松活动在太原举行。50位高校学子骑着鲜艳的小黄车穿梭于城市之间，吸引了众多市民的目光。此次公益骑行活动全程9.8公里，旨在通过骑行，让高校学子和太原市民充分感受绿色出行的便捷性和必要性，提倡健康环保的生活方式。
+  </view>
+
+  <view class="weui-article__p site-end-news">
+    参赛须知：参赛者需要完成“低碳环保骑行”活动，进行照片的上传，通过其他用户对其的点赞量，以及发布作品的数量质量，可获得相应的积分。
+  </view>
+
+  <view class="button-sp-area site-end-button page__bd page__bd_spacing view_class">
+    <view class="weui-btn-area">
+      <navigator url="/pages/dt/four/one/dynamicPage">
+        <button class="weui-btn" type="primary" bindtap="showTopTips" size="big">他人动态</button>
+      </navigator>
+    </view>
+    <view class="weui-btn-area">
+      <navigator url="/pages/pagesOfProject/apply/apply">
+        <button class="weui-btn" type="primary" bindtap="showTopTips" size="big">我要报名</button>
+      </navigator>
+    </view>
+  </view>
+
+  <view class="weui-footer site-footer">
+    <view class="weui-footer__links">
+      <navigator url="" class="weui-footer__link">联系我们</navigator>
+    </view>
+    <view class="weui-footer__text">Copyright © 2008-2020 shiqinghuanyi.hebut.edu</view>
+  </view>
+
+
+</view>

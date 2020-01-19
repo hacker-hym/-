@@ -1,0 +1,43 @@
+<view class="container">
+  <!-- 一个swiper块  开始 -->
+  <swiper class="site-swiper size-swiper" previous-margin="0rpx" next-margin="0rpx" autoplay="true" interval="2000" duration="500" circular="true">
+    <swiper-item wx:for="{{swiperOfHomePage}}">
+      <view>
+        <text></text>
+        <image src="{{item.imagePath}}" class="size-swiper-image" mode="aspectFit" onclick=""></image>
+      </view>
+    </swiper-item>
+  </swiper>
+  <!-- 一个swiper块  结束 -->
+  <!-- 若干条新闻，含标题图片  开始 -->
+
+  <view class="weui-article__p site-mid-news">
+    简介：使用布袋购物，可以重复使用，提高单位次数的利用效率，还可以极大的减少对塑料袋的购买和使用，保护环境，从使用布袋做起。
+  </view>
+
+  <view class="weui-article__p site-end-news">
+    参赛须知：参赛者需要在参赛后一个月内在日常生活中完成“今天购物用布袋”活动，进行照片的上传，通过其他用户对其的点赞量，以及发布作品的数量质量，可获得相应的积分。
+  </view>
+
+  <view class="button-sp-area site-end-button page__bd page__bd_spacing view_class">
+    <view class="weui-btn-area">
+      <navigator url="/pages/dt/one/three/dynamicPage">
+        <button class="weui-btn" type="primary" bindtap="showTopTips" size="big">他人动态</button>
+      </navigator>
+    </view>
+    <view class="weui-btn-area">
+      <navigator url="/pages/pagesOfProject/apply/apply">
+        <button class="weui-btn" type="primary" bindtap="showTopTips" size="big">我要报名</button>
+      </navigator>
+    </view>
+  </view>
+
+  <view class="weui-footer site-footer">
+    <view class="weui-footer__links">
+      <navigator url="" class="weui-footer__link">联系我们</navigator>
+    </view>
+    <view class="weui-footer__text">Copyright © 2008-2020 shiqinghuanyi.hebut.edu</view>
+  </view>
+
+
+</view>

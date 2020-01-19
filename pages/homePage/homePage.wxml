@@ -1,0 +1,102 @@
+<view class="container">
+  <!-- 一个swiper块  开始 -->
+  <swiper class="site-swiper size-swiper" indicator-dots='{{true}}' previous-margin="0rpx" next-margin="0rpx" autoplay="true" interval="2000" duration="500" circular="true">
+    <swiper-item wx:for="{{swiperOfHomePage}}">
+      <view>
+        <text></text>
+        <image src="{{item.imagePath}}" class="size-swiper-image" mode="aspectFit" onclick=""></image>
+      </view>
+    </swiper-item>
+  </swiper>
+  <!-- 一个swiper块  结束 -->
+  <!-- 五个功能魔方导航  开始 -->
+  <!-- <view>
+    <view>
+      <image></image>
+      <text></text>
+    </view>
+    <view>
+      <image></image>
+      <text></text>
+    </view>
+    <view>
+      <image></image>
+      <text></text>
+    </view>
+    <view>
+      <image></image>
+      <text></text>
+    </view>
+    <view>
+      <image></image>
+      <text></text>
+    </view>
+  </view> -->
+  <!-- 五个功能魔方导航  结束 -->
+  <!-- 若干条新闻，含标题图片  开始 -->
+
+
+  <view class="page__bd site-News size-News">
+    <view class="weui-panel weui-panel_access">
+      <view class="weui-panel__hd">最新环境资讯</view>
+      <view class="weui-panel__bd" wx:for="{{NewsList}}">
+        <navigator url="{{item.articlePath}}" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="{{item.imagePath}}" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">{{item.title}}</view>
+            <view class="weui-media-box__desc">{{item.introduct}}</view>
+          </view>
+        </navigator>
+      </view>
+      <view class="weui-panel__ft">
+        <view class="weui-cell weui-cell_access weui-cell_link">
+          <view class="weui-cell__bd" >
+            <navigator url="/pages/showimg/Upload">查看更多</navigator>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+
+
+
+
+  <!-- <view wx:for="{{NewsList}}" class="site-News">
+    <view class="size-News">
+      <view class="site-News-title">
+        <text class="word">{{item.title}}</text>
+      </view>
+      <view>
+        <text class="word">{{item.introduct}}</text>
+      </view>
+      <view class="size-News-images">
+        <image src="{{item.imagePath}}" class="size-News-image site-News-image"  mode="widthFix"></image>
+      </view>
+    </view>
+  </view> -->
+
+
+  <!-- 若干条新闻，含标题图片  结束 -->
+
+
+  <!-- 在该页末尾的图片  开始 -->
+  <view class="size-end site-end">
+    <image src="http://hymcloud.cn/sqhy/imagesOfHomePage/title.jpg" width="400" class="size-end-images site-end-images" mode="aspectFit"></image>
+  </view>
+  <!-- 在该页末尾的图片  结束 -->
+
+
+  <view class="weui-footer site-footer">
+    <view class="weui-footer__links">
+      <navigator url="" class="weui-footer__link">联系我们</navigator>
+    </view>
+    <view class="weui-footer__text">Copyright © 2008-2020 shiqinghuanyi.hebut.edu</view>
+  </view>
+
+
+</view>

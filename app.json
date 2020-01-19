@@ -1,0 +1,93 @@
+{
+  "pages": [
+    "pages/homePage/homePage",
+    "pages/mine/mine",
+    "pages/warning/warning",
+    "pages/comment/comment",
+    "pages/dynamicPage/dynamicPage",
+    "pages/classification/Upload/Upload",
+    "pages/classification/zero/index",
+    "pages/classification/one/index",
+    "pages/classification/two/index",
+    "pages/classification/three/index",
+    "pages/classification/four/index",
+    "pages/classification/five/index",
+    "pages/classification/six/index",
+    "pages/NewsPage/News1/News1",
+    "pages/NewsPage/News2/News2",
+    "pages/NewsPage/News3/News3",
+    "pages/pagesOfProject/one/one/one",
+    "pages/pagesOfProject/one/two/two",
+    "pages/pagesOfProject/one/three/three",
+    "pages/pagesOfProject/two/one/one",
+    "pages/pagesOfProject/two/two/two",
+    "pages/pagesOfProject/two/three/three",
+    "pages/pagesOfProject/three/one/one",
+    "pages/pagesOfProject/three/two/two",
+    "pages/pagesOfProject/three/three/three",
+    "pages/pagesOfProject/four/one/one",
+    "pages/pagesOfProject/four/two/two",
+    "pages/pagesOfProject/four/three/three",
+    "pages/pagesOfProject/five/one/one",
+    "pages/pagesOfProject/five/two/two",
+    "pages/pagesOfProject/five/three/three",
+    "pages/pagesOfProject/apply/apply",
+    "pages/dt/one/one/dynamicPage",
+    "pages/dt/one/two/dynamicPage",
+    "pages/dt/one/three/dynamicPage",
+    "pages/dt/two/one/dynamicPage",
+    "pages/dt/two/two/dynamicPage",
+    "pages/dt/two/three/dynamicPage",
+    "pages/dt/three/one/dynamicPage",
+    "pages/dt/three/two/dynamicPage",
+    "pages/dt/three/three/dynamicPage",
+    "pages/dt/four/one/dynamicPage",
+    "pages/dt/four/two/dynamicPage",
+    "pages/dt/four/three/dynamicPage",
+    "pages/dt/five/one/dynamicPage",
+    "pages/dt/five/two/dynamicPage",
+    "pages/dt/five/three/dynamicPage",
+    "pages/showimg/Upload"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/homePage/homePage",
+        "iconPath": "images/tabbar/homepage.png",
+        "selectedIconPath": "images/tabbar/homepage.png",
+        "enablePullDownRefresh": "ture"
+      },
+      {
+        "text": "活动",
+        "pagePath": "pages/classification/zero/index",
+        "iconPath": "images/tabbar/activity.png",
+        "selectedIconPath": "images/tabbar/activity.png",
+        "enablePullDownRefresh": "ture"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/tabbar/mine.png",
+        "selectedIconPath": "images/tabbar/mine.png",
+        "enablePullDownRefresh": "ture"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#000"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#009000",
+    "navigationBarTitleText": "诗情环意",
+    "navigationBarTextStyle": "white"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

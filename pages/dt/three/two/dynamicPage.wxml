@@ -1,0 +1,60 @@
+<view>
+  <view class="site-top">@一只小猪的动态：</view>
+  <swiper class="site-swiper size-swiper" previous-margin="0rpx" next-margin="0rpx" circular="true">
+    <swiper-item wx:for="{{swiperOfHomePage}}">
+      <view>
+        <text></text>
+        <image src="{{item.imagePath}}" class="size-swiper-image" onclick=""></image>
+      </view>
+    </swiper-item>
+  </swiper>
+  <view class="site-bottom">
+    <view class="page__bd page__bd_spacing">
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <view class="placeholder">
+            <image src="http://hymcloud.cn/sqhy/imageOfDynamic/share.jpg" class="site-bottom-image-icon-1 size-bottom-image-icon-1"></image>
+          </view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="placeholder">
+            <image src="http://hymcloud.cn/sqhy/imageOfDynamic/giveLike.jpg" class="site-bottom-image-icon-2 size-bottom-image-icon-2"></image>
+          </view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="placeholder">
+            <navigator url="/pages/classification/Upload/Upload">
+              <image src="http://hymcloud.cn/sqhy/imageOfDynamic/yellowPlus1.jpg" class="site-bottom-image-icon-3 size-bottom-image-icon-3"></image>
+            </navigator>
+          </view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="placeholder">
+            <navigator url="/pages/comment/comment">
+              <image src="http://hymcloud.cn/sqhy/imageOfDynamic/comments.jpg" class="site-bottom-image-icon-4 size-bottom-image-icon-4"></image>
+            </navigator>
+          </view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="placeholder">
+            <navigator url="/pages/warning/warning">
+              <image src="http://hymcloud.cn/sqhy/imageOfDynamic/warning1.jpg" class="site-bottom-image-icon-5 size-bottom-image-icon-5"></image>
+            </navigator>
+          </view>
+        </view>
+      </view>
+
+
+
+
+      <!-- <view class="weui-flex">
+            <view><view class="placeholder">weui</view></view>
+            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+            <view><view class="placeholder">weui</view></view>
+        </view> -->
+
+
+
+    </view>
+  </view>
+</view>

@@ -1,0 +1,46 @@
+<view class="container">
+  <!-- 一个swiper块  开始 -->
+  <swiper class="site-swiper size-swiper" previous-margin="0rpx" next-margin="0rpx" autoplay="true" interval="2000" duration="500" circular="true">
+    <swiper-item wx:for="{{swiperOfHomePage}}">
+      <view>
+        <text></text>
+        <image src="{{item.imagePath}}" class="size-swiper-image" mode="aspectFit" onclick=""></image>
+      </view>
+    </swiper-item>
+  </swiper>
+  <!-- 一个swiper块  结束 -->
+  <!-- 若干条新闻，含标题图片  开始 -->
+
+  <view class="weui-article__p site-mid-news">
+    简介：水质（water quality ）水体质量的简称。它标志着水体的物理（如色度、浊度、臭味等）、化学（无机物和有机物的含量）和生物（细菌、微生物、浮游生物、底栖生物）的特性及其组成的状况。
+水质为评价水体质量的状况，规定了一系列水质参数和水质标准。如生活饮用水、工业用水和渔业用水等水质标准。
+天然水评价指标一般为色、嗅、味、透明度、水温、矿化度、总硬度、氧化-还原电位、pH值、生化需氧量和化学需氧量等。天然水中的大气降水水质与当地的气象条件和降水淋溶的大气颗粒物的化学成分有关；地表水水质与径流流程中的岩石、土壤和植被有关；地下水水质主要与含水层岩石的化学成分和补给区的地质条件有关。
+
+  </view>
+
+  <view class="weui-article__p site-end-news">
+    报名须知：报名者者需要在报名后一个月内在动态中表达自己对水质的看法，协同政府有关部门开展相应的工作，进行照片的上传，通过其他用户对其的点赞量，以及发布作品的数量质量，可获得相应的积分。
+  </view>
+
+  <view class="button-sp-area site-end-button page__bd page__bd_spacing view_class">
+    <view class="weui-btn-area">
+      <navigator url="/pages/dt/five/two/dynamicPage">
+        <button class="weui-btn" type="primary" bindtap="showTopTips" size="big">他人动态</button>
+      </navigator>
+    </view>
+    <view class="weui-btn-area">
+      <navigator url="/pages/pagesOfProject/apply/apply">
+        <button class="weui-btn" type="primary" bindtap="showTopTips" size="big">我要报名</button>
+      </navigator>
+    </view>
+  </view>
+
+  <view class="weui-footer site-footer">
+    <view class="weui-footer__links">
+      <navigator url="" class="weui-footer__link">联系我们</navigator>
+    </view>
+    <view class="weui-footer__text">Copyright © 2008-2020 shiqinghuanyi.hebut.edu</view>
+  </view>
+
+
+</view>

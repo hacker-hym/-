@@ -1,0 +1,36 @@
+<view class="page">
+  <view class="page__hd">
+    <!-- <view class="page__title">Article</view>
+        <view class="page__desc">文章</view> -->
+  </view>
+  <view class="page__bd">
+    <view class="weui-article">
+      <view class="weui-article__h1">高能环境</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">高能环境：土壤修复龙头实力领先，固废布局完善</view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">中文正文：</view>
+          <view class="weui-article__p">
+            <text class="word">
+　　土壤修复龙头，竞争优势显著。2018年8月，《土法》过会后，土壤修复市场需求加速释放，下半年订单数量明显上升。我们认为，我国土壤修复市场处于开启初期，政策和财政刺激作用显著。在借鉴欧美近20年修复研究和工程经验的基础上，土壤修复研究成果和技术得以飞速发展。2019年，化工园区爆炸事件频发，催生了化工行业整治提升方案的出台，有望带来超过300亿元的工业场地修复需求。同时，政府免责意识进一步提升，有助于加速市场需求的释放。公司作为土壤修复行业龙头，技术储备完备，研发实力领先，承担过多项示范项目的修复工作，得到业主方的高度认可。我们认为公司在土壤修复领域拿单能力较强，该项业务有望保持每年35%的增速。
+                    </text>
+          </view>
+          <view class="weui-article__p">
+            <image class="weui-article__img" src="http://hymcloud.cn/sqhy/imagesOfHomePage/News/soil.png" mode="aspectFit" style="height: 180px" />
+            <!-- <image class="weui-article__img" src="../images/pic_article.png" mode="aspectFit" style="height: 180px" /> -->
+          </view>
+        </view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">English text：</view>
+          <view class="weui-article__p">
+            <text class="word">
+The competitive advantage of soil remediation is remarkable. In August 2018, the demand for soil remediation market accelerated after the meeting of "Land Law", and the number of orders increased significantly in the second half of the year. We believe that China's soil remediation market is in the early stage of opening, and the policy and fiscal stimulus effect is significant. Soil remediation research and technology have been developed rapidly on the basis of the experience of remediation research and Engineering in Europe and America in the past 20 years. In 2019, explosions occurred frequently in chemical industry parks, which led to the promulgation of the renovation and upgrading plan for chemical industry. It is expected to bring more than 30 billion yuan of industrial site repair demand. At the same time, the government's sense of exemption is further enhanced, which will help accelerate the release of market demand. As the leader of soil remediation industry, the company has complete technical reserve, leading research and development strength, and has undertaken many demonstration projects of remediation, which has been highly recognized by the owners. We believe that the company has a strong ability to take orders in the field of soil remediation, and the business is expected to maintain an annual growth rate of 35%.
+            </text>
+            <!-- <view>{{msg}}</view>
+            <button bindtap="clickMe">点击我</button> -->
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

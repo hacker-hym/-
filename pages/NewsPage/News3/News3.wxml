@@ -1,0 +1,50 @@
+<view class="page">
+  <view class="page__hd">
+    <!-- <view class="page__title">Article</view>
+    <view class="page__desc">文章</view> -->
+  </view>
+  <view class="page__bd">
+    <view class="weui-article">
+      <view class="weui-article__h1">环境部发布最新环境资讯</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">生态环境受损需赔偿，各地涉案金额近十亿</view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">中文正文：</view>
+          <view class="weui-article__p">
+            <text class="word">
+　　生态环境受损须赔偿 各地涉案金额近十亿\n
+
+　　科技日报讯 （记者李禾）以前企业发生重大环境污染事件，多是群众受损、政府买单，不过这种现象已经发生改变。在7月26日生态环境部召开的新闻发布会上，生态环境部法规与标准司司长别涛说，目前，各地办理生态环境损害赔偿案件424件，涉案金额近10亿元；办结206件，其中以磋商方式结案186件。\n
+
+　　生态环境损害赔偿制度及其改革是一项探索性制度，2016年开始在部分地区试点；2017年12月中办、国办印发了《生态环境损害赔偿制度改革方案》，31个省（区、市）和新疆生产建设兵团成立此项改革工作领导小组，并印发实施方案。\n
+
+　　别涛说，生态环境损害赔偿已纳入中央生态环境保护督察。中办、国办印发的《中央生态环境保护督察工作规定》明确要求，“对督察发现需要开展生态环境损害赔偿工作的，移送省、自治区、直辖市政府依照有关规定索赔。”这有助于各地提高对这一改革重要性的认识，深入推进全国改革试行工作。此外，环境部还推动在《土壤污染防治法》中增加生态环境损害赔偿的规定；在《固体废物污染环境防治法》《长江保护法》和民法典侵权责任编的制订和修订过程中提出立法建议，“目前相关审议稿及建议稿中，已将生态环境损害赔偿内容纳入其中”。\n
+                    </text>
+          </view>
+          <view class="weui-article__p">
+            <image class="weui-article__img" src="http://hymcloud.cn/sqhy/imagesOfHomePage/News/zoology.jpg" mode="aspectFit" style="height: 180px" />
+            <!-- <image class="weui-article__img" src="../images/pic_article.png" mode="aspectFit" style="height: 180px" /> -->
+          </view>
+        </view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">English text：</view>
+          <view class="weui-article__p">
+          <text class="word">
+            Damage to the ecological environment must be compensated for nearly one billion sums involved everywhere.\n Science and Technology Daily News (Reporter Li He) before major environmental pollution incidents occurred in enterprises, mostly people were damaged
+            and the government paid for them, but this phenomenon has changed. At a press conference held by the Ministry of Ecology and Environment on July 26, Bie Tao, Director of the Department of Regulations and Standards of the Ministry of Ecology
+            and Environment, said that at present, 424 cases of compensation for damage to the ecological environment have been handled in various places, involving a total amount of nearly 1 billion yuan; 206 cases have been handled, of which 186 cases
+            have been settled through consultation.\n Eco-environmental damage compensation system and its reform is an exploratory system, which began to be piloted in some areas in 2016. In December 2017, the Central Office and the State Office issued
+            the Reform Plan of Eco-environmental Damage Compensation System. 31 provinces (regions, municipalities) and Xinjiang Production and Construction Corps set up a leading group for this reform and issued and implemented it. Program.\n Bie Tao
+            said that compensation for damage to the ecological environment has been brought into the supervision of the central ecological environment protection. The Regulations on Supervision of Central Ecological Environment Protection issued by the
+            State Office and the Intermediate Administration clearly require that "if the supervision finds that compensation for damage to the ecological environment needs to be carried out, it shall be transferred to the governments of provinces, autonomous
+            regions and municipalities directly under the Central Government for compensation in accordance with the relevant provisions." This will help all localities to raise awareness of the importance of this reform and further advance the national
+            reform pilot work. In addition, the Ministry of Environment has also promoted the provision of compensation for damage to the ecological environment in the Law on the Prevention and Control of Soil Pollution; in the formulation and revision
+            of the Law on the Prevention and Control of Environmental Pollution by Solid Waste, the Law on the Protection of the Yangtze River and the tort liability of the Civil Code, legislative proposals have been put forward. The content of compensation
+            for environmental damage should be included.\n
+            </text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

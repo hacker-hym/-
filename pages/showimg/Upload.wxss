@@ -1,0 +1,45 @@
+.site-button
+{
+  position:relative; 
+  z-index:1; 
+  top:5%;
+}
+page{background-color:#EDEDED;}
+.button-sp-area{
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align:center;
+}
+.mini-btn{
+    margin: 0 4px;
+}
+
+
+
+
+
+
+.weui-progress{
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.weui-demo-dialog{
+  visibility:hidden;
+  opacity:0;
+  transition:opacity .3s;
+}
+.weui-demo-dialog_show{
+  visibility:visible;
+  opacity:1;
+}

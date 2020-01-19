@@ -1,0 +1,43 @@
+<view class="container">
+  <!-- 一个swiper块  开始 -->
+  <swiper class="site-swiper size-swiper" previous-margin="0rpx" next-margin="0rpx" autoplay="true" interval="2000" duration="500" circular="true">
+    <swiper-item wx:for="{{swiperOfHomePage}}">
+      <view>
+        <text></text>
+        <image src="{{item.imagePath}}" class="size-swiper-image" mode="aspectFit" onclick=""></image>
+      </view>
+    </swiper-item>
+  </swiper>
+  <!-- 一个swiper块  结束 -->
+  <!-- 若干条新闻，含标题图片  开始 -->
+
+  <view class="weui-article__p site-mid-news">
+    简介：便携筷子是在旅游、外出用餐时可以使用随身携带的筷子。既方便又卫生。很多人在旅游，外出时为餐具的卫生状况担忧，只能将就着用用。带家里的筷子又太长，很不方便。便携筷子与普通筷子不同的是，便携筷子可以收折起来，收折后长度短，便于携带，一般长度只有家用筷子的一半，或者更短，10-15厘米左右，甚至可以装进自己的口袋，一般由螺丝拼接，加长铜螺丝居多，稳固耐用，有专门配套的筷子袋，筷子盒保护筷子，不容易弄脏筷子。很多餐饮店提供一次性筷子，看上去很干净，但一次性筷子的加工存在很多问题，很多经过漂白，不消毒直接上市销售，央视也曝光过。一次性筷子也消耗大量的木材，竹子。少用一次性筷子肯定也节约自然资源！
+  </view>
+
+  <view class="weui-article__p site-end-news">
+    购买须知：本产品是与制造业企业进行合作推广的环保产品，用户也可以自己进行商品制作，拍摄照片并上传至本小程序，通过其他用户对其的点赞量，以及发布作品的数量质量，可获得相应的积分。
+  </view>
+
+  <view class="button-sp-area site-end-button page__bd page__bd_spacing view_class">
+    <view class="weui-btn-area">
+      <navigator url="/pages/dt/three/three/dynamicPage">
+        <button class="weui-btn" type="primary" bindtap="showTopTips" size="big">他人动态</button>
+      </navigator>
+    </view>
+    <view class="weui-btn-area">
+      <navigator url="/pages/pagesOfProject/apply/apply">
+        <button class="weui-btn" type="primary" bindtap="showTopTips" size="big">我要购买</button>
+      </navigator>
+    </view>
+  </view>
+
+  <view class="weui-footer site-footer">
+    <view class="weui-footer__links">
+      <navigator url="" class="weui-footer__link">联系我们</navigator>
+    </view>
+    <view class="weui-footer__text">Copyright © 2008-2020 shiqinghuanyi.hebut.edu</view>
+  </view>
+
+
+</view>

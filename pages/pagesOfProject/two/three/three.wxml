@@ -1,0 +1,45 @@
+<view class="container">
+  <!-- 一个swiper块  开始 -->
+  <swiper class="site-swiper size-swiper" previous-margin="0rpx" next-margin="0rpx" autoplay="true" interval="2000" duration="500" circular="true">
+    <swiper-item wx:for="{{swiperOfHomePage}}">
+      <view>
+        <text></text>
+        <image src="{{item.imagePath}}" class="size-swiper-image" mode="aspectFit" onclick=""></image>
+      </view>
+    </swiper-item>
+  </swiper>
+  <!-- 一个swiper块  结束 -->
+  <!-- 若干条新闻，含标题图片  开始 -->
+
+  <view class="weui-article__p site-mid-news">
+    简介：亚洲象（拉丁学名：Elephas maximus Linnaeus ），别名印度象、大象、亚洲大象，属于长鼻目、象科，属于国家一级保护动物。亚洲象是亚洲现存的最大陆生动物，长达1米多的象牙，是雄象上颌突出口外的门齿，也是强有力的防卫武器。象的眼小耳大，耳朵向后可遮盖颈部两侧。四肢粗大强壮，前肢5趾，后肢4趾。尾短而细，皮厚多褶皱，全身被稀疏短毛。头顶为最高点，体长5～6米，身高2.1～3.6米，体重达3～5吨。
+    白颊长臂猿（学名：Nomascus leucogenys）：体长为45-62厘米，体重5-7千克。腿短，手掌比脚掌长，手指关节长；身体纤细，肩宽而臀部窄；有较长的犬齿。体毛长而粗糙，雄兽以黑色为主，混有不明显的银色，只是面颊的两旁从嘴角至耳朵的上方各有一块白色或黄色的毛，雌兽体毛为桔黄色至乳白色，腹部没有黑色的毛，从而区别于黑冠长臂猿。
+    白腹黑啄木鸟（学名：Dryocopus javensis），是啄木鸟科、黑啄木鸟属的中型鸟类，体长43-46cm，头顶具长的红色羽冠，颚纹亦为红色，其余头、颈、胸和上体黑色，腰和腹白色，飞翔时白色腋羽和翅下覆羽亦明显可见。雌鸟头顶黑色，亦无红色颚纹。
+  </view>
+
+  <view class="weui-article__p site-end-news">
+    参赛须知：参赛者需要在参赛后一个月内在日常生活中完成“守护动物--西双版纳自然保护区”活动，进行照片的上传，通过其他用户对其的点赞量，以及发布作品的数量质量，可获得相应的积分。
+  </view>
+
+  <view class="button-sp-area site-end-button page__bd page__bd_spacing view_class">
+    <view class="weui-btn-area">
+      <navigator url="/pages/dt/two/three/dynamicPage">
+        <button class="weui-btn" type="primary" bindtap="showTopTips" size="big">他人动态</button>
+      </navigator>
+    </view>
+    <view class="weui-btn-area">
+      <navigator url="/pages/pagesOfProject/apply/apply">
+        <button class="weui-btn" type="primary" bindtap="showTopTips" size="big">我要报名</button>
+      </navigator>
+    </view>
+  </view>
+
+  <view class="weui-footer site-footer">
+    <view class="weui-footer__links">
+      <navigator url="" class="weui-footer__link">联系我们</navigator>
+    </view>
+    <view class="weui-footer__text">Copyright © 2008-2020 shiqinghuanyi.hebut.edu</view>
+  </view>
+
+
+</view>

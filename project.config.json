@@ -1,0 +1,87 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"coverView": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.7",
+	"appid": "wxe6f9decfc3c57734",
+	"projectname": "%E8%AF%97%E6%83%85%E7%8E%AF%E6%84%8F-%E6%B5%8B%E8%AF%95",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "pages/pagesOfProject/apply/apply",
+					"pathName": "pages/pagesOfProject/apply/apply",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "pages/pagesOfProject/three/two/two",
+					"pathName": "pages/pagesOfProject/three/two/two",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/classification/zero/index",
+					"pathName": "pages/classification/zero/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/mine/mine",
+					"pathName": "pages/mine/mine",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "pages/showimg/Upload",
+					"pathName": "pages/showimg/Upload",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

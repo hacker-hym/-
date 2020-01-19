@@ -1,0 +1,56 @@
+<view class="page">
+  <view class="page__hd">
+    <!-- <view class="page__title">Article</view>
+    <view class="page__desc">文章</view> -->
+  </view>
+  <view class="page__bd">
+    <view class="weui-article">
+      <view class="weui-article__h1">生态环境部发出重要指示</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">生态环境部：今年秋冬季全面达到超低排放的企业不需要停、减产</view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">中文正文：</view>
+          <view class="weui-article__p">
+            <text class="word">
+生意社07月29日讯
+
+  　　“生态环境部已将全面达到超低排放的企业列为A级，这类企业在今年冬季重污染应对时，不需要采取限产或停产、减排等措施。”7月26日，生态环境部新闻发言人刘友宾在7月例行新闻发布会上强调，“树立标杆企业，推动行业治理水平提升，形成‘良币驱逐劣币’的公平竞争环境，促进重点行业高质量发展。”\n
+
+  　　刘友宾表示，为了做好各地重污染天气的应对工作，目前，生态环境部正在制定重污染天气重点行业应急减排措施的技术指南，拟按照工艺装备有组织排放限制、无组织排放措施、运输方式等环保绩效水平，将企业分为A、B、C三类，分别采取不同的重污染预警等级应对措施，并提前告知企业，指导企业合理地安排生产。在保障公众身体健康的同时，最大限度、最大程度地减少对企业生产经营的影响。\n
+
+  　　刘友宾介绍，今年上半年我国的空气质量总体呈持续、稳步改善的趋势。但是进入秋冬季，由于污染物排放总量仍然比较高，且受地方气象条件的综合影响，一些地方仍不断地发生重污染天气，给群众正常生活带来了影响。因此要进一步地采取措施，改善秋冬季的环境空气质量。\n
+
+  　　“今年冬天我们将依据《大气污染防治法》等法律法规，积极推进钢铁行业超低排放改造和重污染天气应对，努力让人民群众拥有更多的蓝天白云。”刘友宾表示，“同时我们也将继续坚持依法减排、科学减排、精准减排，生态环境部不会统一组织对工业领域，包括钢铁企业进行限产或停产。各个地方对冬季工业企业生产有明确规定和要求，按地方法规执行。”\n
+
+  　　根据《大气污染防治法》第96条规定，县级以上地方人民政府应当依据重污染天气的预警等级及时启动应急预案，根据应急需要，可以采取责令有关企业停产或者限产等应急措施。\n
+  </text>
+          </view>
+          <view class="weui-article__p">
+            <image class="weui-article__img" src="http://hymcloud.cn/sqhy/imagesOfHomePage/News/discharge.jpg" mode="aspectFit" style="height: 180px" />
+            <!-- <image class="weui-article__img" src="../images/pic_article.png" mode="aspectFit" style="height: 180px" /> -->
+          </view>
+        </view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">English text：</view>
+          <view class="weui-article__p">
+          <text class="word">
+            COMMERCIAL COMPANY, 29 July "The Ministry of Ecology and Environment has classified enterprises with ultra-low emissions as Grade A. When dealing with heavy pollution in winter this year, such enterprises do not need to take measures such as production
+            restriction or shutdown or emission reduction." On July 26, Liu Youbin, spokesman of the Ministry of Ecology and Environment, stressed at a regular press conference in July that "benchmarking enterprises should be established to promote the
+            level of industry governance, and a fair competitive environment of"good money expels bad money"should be formed to promote the high-quality development of key industries."\n Liu Youbin said that in order to cope with the heavy polluted weather,
+            the Ministry of Ecology and Environment is currently formulating technical guidelines for emergency emission reduction measures in key industries of heavy polluted weather. According to the environmental performance levels of organized emission
+            limitation, non-organized emission measures and transportation modes of process equipment, enterprises are divided into A, B and C. Three categories, respectively, adopt different levels of heavy pollution early warning response measures,
+            and inform enterprises in advance, guide enterprises to arrange production rationally. While safeguarding the public health, we should minimize and minimize the impact on the production and operation of enterprises.\n Liu Youbin introduced
+            that in the first half of this year, China's air quality showed a trend of continuous and steady improvement. But in autumn and winter, because the total amount of pollutant discharge is still relatively high, and affected by local meteorological
+            conditions, some places are still experiencing heavy pollution weather, which has an impact on people's normal life. Therefore, further measures should be taken to improve the air quality in autumn and winter.\n "This winter, we will actively
+            promote the transformation of ultra-low emission and heavy pollution weather in the iron and steel industry in accordance with laws and regulations such as the Air Pollution Prevention Law, and strive to make the people have more blue sky
+            and white clouds." Liu Youbin said, "At the same time, we will continue to adhere to emission reduction according to law, scientific emission reduction and precise emission reduction. The Ministry of Ecology and Environment will not organize
+            a unified restriction or shutdown of production in industrial areas, including iron and steel enterprises. Every place has clear regulations and requirements for the production of industrial enterprises in winter, which shall be implemented
+            in accordance with local laws and regulations.\n According to Article 96 of the Law on the Prevention and Control of Air Pollution, the local people's governments at or above the county level shall start emergency plans in time according to
+            the warning level of heavily polluted weather. According to emergency needs, they may take emergency measures such as ordering relevant enterprises to stop production or limit production.\n
+            </text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,55 @@
+/* page/two/index.wxss */
+/* .navigator-hover
+{
+  background: rgb(85, 173, 224);
+} */
+
+
+.navigator-hover
+{
+  background: rgb(61, 245, 36);
+}
+.class1
+{
+  background: rgb(170, 255, 152);
+  height: 20vh;
+  width: 92vw;
+  position:relative; 
+  z-index:3; 
+  top:3vh;
+  left: -5vw;
+  margin-bottom: 0;
+  margin: 5vh;
+  border: solid;
+  border-color: rgb(116, 250, 145);
+  outline-color: rgb(116, 255, 162);
+  border-radius: 7px;
+}
+
+.class2
+{
+  height: 20vh;
+  padding: 0vh;
+}
+
+.class3
+{
+  position:relative; 
+  z-index:3; 
+  top:0vh;
+  left: 0vw;
+  height: 20vh;
+  width: 30vw;
+}
+
+
+
+.class4
+{
+  position:relative; 
+  z-index:3; 
+  top:0vh;
+  left: -4vw;
+  height: 20vh;
+  width:50vw; 
+}
